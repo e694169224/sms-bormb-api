@@ -1,0 +1,18 @@
+{
+  "parser": "babel-eslint",
+  "extends": "standard",
+  "env": {
+    "node": true,
+    "es6": true,
+    "mocha": true
+  },
+  "plugins": [
+    "standard"
+  ],
+  "rules": {
+    "camelcase": 0
+  },
+  "globals": {
+    "Logger": true
+  }
+}
